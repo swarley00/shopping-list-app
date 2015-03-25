@@ -31,6 +31,13 @@ h1 {
 
 .add-btn {
 	background-color: #a8dba8;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 1.875em;
+	font-weight: 200;
+	color: white;
+	border: none;
+	width: 127px;
+	height: 50px;
 }
 
 .shopping-items {

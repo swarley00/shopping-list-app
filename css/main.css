@@ -27,6 +27,9 @@ h1 {
 .content {
 	background-color: #f4f4f4;
 	border: 1px solid #3b8686;
+	-webkit-box-shadow: 0px 12px 30px -10px rgba(26,53,50,1);
+	-moz-box-shadow: 0px 12px 30px -10px rgba(26,53,50,1);
+	box-shadow: 0px 12px 30px -10px rgba(26,53,50,1);
 }
 
 form {

@@ -11,10 +11,10 @@ body {
 
 h1 {
 	font-family: 'Lobster Two', cursive;
-	font-size: 3em;
+	font-size: 3rem;
 	color: white;
-	margin-top: 1em; 
-	margin-bottom: .5em;
+	margin-top: 2.375rem; 
+	margin-bottom: 1.500rem;
 	text-align: center;
 	text-shadow: 1px 1px 3px #182720;
 }
@@ -29,24 +29,45 @@ h1 {
 	border: 1px solid #3b8686;
 }
 
+form {
+	overflow: auto;
+}
+
+.input-field {
+	width: 45.938rem;
+	height: 50px;
+	border: none;
+	padding: 1rem;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 1.875rem;
+	text-transform: uppercase;
+	color: #888989;
+	float: left;
+}
+
+.input-field:focus {
+	outline: none;
+}
+
 .add-btn {
 	background-color: #a8dba8;
 	font-family: 'Helvetica Neue', sans-serif;
-	font-size: 1.875em;
+	font-size: 1.875rem;
 	font-weight: 200;
 	color: white;
 	border: none;
 	width: 127px;
 	height: 50px;
+/*	float: right;*/
 }
 
 .shopping-items {
-	margin: 5em; 
+	margin: 5rem; 
 }
 
 .shopping-items li {
 	background-color: white;
-	margin-bottom: 0.125em;
+	margin-bottom: 0.125rem;
 	overflow: auto;
 }
 
@@ -59,13 +80,13 @@ h1 {
 	width: 50px;
 	height: 50px;
 	line-height: 50px;
-	padding: .5em;
+	padding: .5rem;
 	float: left;
 }
 
 .item {
 	font-family: 'Helvetica Neue', sans-serif;
-	font-size: 1.875em;
+	font-size: 1.875rem;
 	color: #888989;
 	height: 50px;
 	line-height: 50px;
@@ -77,7 +98,7 @@ h1 {
 .del-btn {
 	background-color: #e88989;
 	font-family: 'Helvetica Neue', sans-serif;
-	font-size: 1.875em;
+	font-size: 1.875rem;
 	font-weight: 200;
 	color: white;
 	width: 123px;

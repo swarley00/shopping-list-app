@@ -4,9 +4,16 @@
 }
 
 body {
-	/*background: radial-gradient(circle, #7ebf9e, #3b8686);
-	background-repeat: no-repeat; */
 	background-color: #3b8686;
+    background: rgba(122,189,154,1);
+    background: -moz-linear-gradient(-45deg, rgba(122,189,154,1) 0%, rgba(59,135,135,1) 83%, rgba(59,135,135,1) 88%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(122,189,154,1)), color-stop(83%, rgba(59,135,135,1)), color-stop(88%, rgba(59,135,135,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(122,189,154,1) 0%, rgba(59,135,135,1) 83%, rgba(59,135,135,1) 88%);
+    background: -o-linear-gradient(-45deg, rgba(122,189,154,1) 0%, rgba(59,135,135,1) 83%, rgba(59,135,135,1) 88%);
+    background: -ms-linear-gradient(-45deg, rgba(122,189,154,1) 0%, rgba(59,135,135,1) 83%, rgba(59,135,135,1) 88%);
+    background: linear-gradient(135deg, rgba(122,189,154,1) 0%, rgba(59,135,135,1) 83%, rgba(59,135,135,1) 88%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abd9a', endColorstr='#3b8787', GradientType=1 );
+    background-repeat: no-repeat;
 }
 
 h1 {
@@ -61,7 +68,6 @@ form {
 	border: none;
 	width: 127px;
 	height: 50px;
-/*	float: right;*/
 }
 
 .shopping-items {

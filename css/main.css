@@ -109,6 +109,11 @@ form {
 	padding-left: 1.5em;
 }
 
+.shopping-items .selected {
+	color: #e1e1e1;
+	text-decoration: line-through;
+}
+
 .del-btn {
 	background-color: #e88989;
 	font-family: 'Helvetica Neue', sans-serif;

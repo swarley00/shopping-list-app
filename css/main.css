@@ -3,6 +3,10 @@
 	-webkit-font-smoothing: antialiased;
 }
 
+html {
+	min-height: 100%;
+}
+
 body {
 	background-color: #3b8686;
     background: rgba(122,189,154,1);
@@ -13,6 +17,7 @@ body {
     background: -ms-linear-gradient(-45deg, rgba(122,189,154,1) 0%, rgba(59,135,135,1) 83%, rgba(59,135,135,1) 88%);
     background: linear-gradient(135deg, rgba(122,189,154,1) 0%, rgba(59,135,135,1) 83%, rgba(59,135,135,1) 88%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abd9a', endColorstr='#3b8787', GradientType=1 );
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
@@ -40,7 +45,7 @@ h1 {
 }
 
 form {
-	overflow: auto;
+	overflow: hidden;
 }
 
 .input-field {

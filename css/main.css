@@ -92,6 +92,10 @@ form {
 	margin-bottom: 0;
 }
 
+#hidden {
+	display: none;
+}
+
 .checkmark {
 	background-color: #a8dba8;
 	width: 50px;

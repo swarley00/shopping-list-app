@@ -1,8 +1,17 @@
 $(document).ready(function(){
-	$('.add-btn').click(function(){
-		var listvalue = $('.input-field').val();
-		$('.shopping-items').append('<li><p>' + listvalue + '</p></li>');
+	var shoppingList = $(".shopping-items");
+	var checkmark = "<img src='images/checkmark.png'>";
+	var checkmarkBox = "<div class='checkmark'></div>";
+
+	$(".add-btn").click(function(){
+		var listvalue = $(".input-field").val();
+		var delBtn = "<button class='del-btn' type='button'>DEL</button>";
+		shoppingList.append("<li>" + checkmarkBox + "<p class='item'>" + listvalue + "</p>" + delBtn + "</li>");
 	});
+
+	// shoppingList.on("click", checkmarkBox, function(event){
+	// 	checkmarkBox.append(checkmark);
+	// }
 
 	$(document).keydown(function(event){
 		var listitem = $('.input-field').val();

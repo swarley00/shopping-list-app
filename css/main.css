@@ -104,6 +104,8 @@ form {
 	padding: .5rem;
 	float: left;
 	cursor: pointer;
+	-webkit-user-select: none;
+	user-select: none;
 }
 
 .item {
@@ -118,6 +120,11 @@ form {
 }
 
 .shopping-items .selected {
+	color: #e1e1e1;
+	text-decoration: line-through;
+}
+
+.selected {
 	color: #e1e1e1;
 	text-decoration: line-through;
 }

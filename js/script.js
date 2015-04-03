@@ -10,17 +10,28 @@ $(document).ready(function(){
 	});
 
 	//When a list item is clicked, the checkmark image toggles on and the selected class is added to the paragraph text. If the toggle is clicked off the selected class is removed.
-	//1. Remove list items.
-	//2. Move the click off of the list item and only apply it to the check box.
-	shoppingList.on("click", "li", function(event){
+	//1. Only apply .selected class to the toggled .item class.
+	//2. Remove list items.
+
+	shoppingList.on("click", ".checkmark", function(event){
 		$(this).find(".check").toggle();
 		if ($(".check").is(":visible")) {
-			$(this).find(".item").addClass("selected");
+			$(this).closest("li").find(".item").addClass("selected");
 		} 
 		else {
-			$(this).find(".item").removeClass("selected");
+			$(this).closest("li").find(".item").removeClass("selected");
 		} 
 	});
+
+	// shoppingList.on("click", ".checkmark", function(event){
+	// 	$(this).find(".check").toggle();
+	// 	if ($(".check").is(":visible")) {
+	// 		$("li").find(".item").addClass("selected");
+	// 	} 
+	// 	else {
+	// 		$("li").find(".item").removeClass("selected");
+	// 	} 
+	// });
 
 	//Add the same functionality as the add button above, but with the enter key.
 	//After everything is working clean up the code by adding everything into a function and passing the function to each event.

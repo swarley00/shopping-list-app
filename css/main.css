@@ -76,6 +76,7 @@ form {
 	height: 50px;
 	float: right;
 	cursor: pointer;
+	outline: none;
 }
 
 .shopping-items {
@@ -119,10 +120,10 @@ form {
 	padding-left: 1.5em;
 }
 
-.shopping-items .selected {
+/*.shopping-items .selected {
 	color: #e1e1e1;
 	text-decoration: line-through;
-}
+}*/
 
 .selected {
 	color: #e1e1e1;
@@ -141,4 +142,5 @@ form {
 	height: 50px;
 	float: right;
 	cursor: pointer;
+	outline: none;
 }

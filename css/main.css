@@ -120,11 +120,6 @@ form {
 	padding-left: 1.5em;
 }
 
-/*.shopping-items .selected {
-	color: #e1e1e1;
-	text-decoration: line-through;
-}*/
-
 .selected {
 	color: #e1e1e1;
 	text-decoration: line-through;
